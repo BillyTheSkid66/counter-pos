@@ -1,0 +1,9 @@
+{
+  "title":"Example preparation questions — NOT an official SAQ",
+  "version":"example-1",
+  "sourceUrl":"https://www.pcisecuritystandards.org/document_library/",
+  "questions":[
+    {"id":"example.scope","title":"Has the acquirer confirmed the questionnaire for this payment channel?","help":"Replace this example with the exact current question from the form your acquirer accepts.","evidence":"Confirmation message or portal reference."},
+    {"id":"example.provider","title":"Have you checked the provider’s responsibilities and supporting records?","help":"This is example preparation content, not the wording of a PCI requirement.","evidence":"Current agreement and provider record references."}
+  ]
+}

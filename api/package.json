@@ -1,0 +1,30 @@
+{
+  "name": "counter-api",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node spanel-entry.js",
+    "migrate": "node src/migrate.js",
+    "seed": "node src/seed.js",
+    "demo:reset": "node src/seed.js",
+    "test": "node --test",
+    "preflight": "node --env-file=.env src/preflight.js",
+    "test:integration": "node --test test/integration.test.js"
+  },
+  "dependencies": {
+    "@fastify/cors": "11.2.0",
+    "@fastify/helmet": "13.2.0",
+    "@fastify/rate-limit": "11.2.2",
+    "bcryptjs": "3.0.3",
+    "fastify": "5.12.7",
+    "jose": "6.2.3",
+    "nodemailer": "10.2.1",
+    "pg": "8.22.0",
+    "zod": "4.6.7"
+  },
+  "engines": {
+    "node": ">=24 <25"
+  }
+}
